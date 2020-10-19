@@ -1,8 +1,9 @@
 import { merge } from 'lodash'
-import books from './books';
-import authors from './authors';
+import usuarios from './usuarios';
+import clasificaciones from './clasificaciones';
+import fichas from './fichas';
 
 const resolvers = {}
 
-export default merge(resolvers,books,authors)
+export default merge(resolvers,usuarios,clasificaciones,fichas)
 

@@ -11,12 +11,21 @@
   "author": "angeldesweb",
   "license": "MIT",
   "dependencies": {
+    "apollo-resolvers": "^1.4.2",
     "apollo-server-express": "^2.18.2",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
+    "cloudinary": "^1.23.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "lodash": "^4.17.20"
+    "jwt-simple": "^0.5.6",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.9",
+    "mongoose-validator": "^2.1.0",
+    "react-dropzone": "^11.2.0"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
